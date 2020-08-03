@@ -26,7 +26,7 @@ This sample using `applicationinsights-spring-boot-starter` library.
 
 This sample using java agent. `applicationinsights-agent-3.0.0-PREVIEW.5.jar` 
 
-1. Copy `AI-agent.sample.xml` to `AI-agent.xml`.
+1. Copy `ApplicationInsights.sample.json` to `ApplicationInsights.json`.
 2. Set your instrumentation key.
 3. Execute program. `maven clean package spring-boot:run`
 4. Check out your Application Insights.
