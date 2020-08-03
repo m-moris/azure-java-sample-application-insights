@@ -1,0 +1,13 @@
+{
+    "instrumentationSettings": {
+        "connectionString": "InstrumentationKey=<<set your instrumentation key>>",
+        "preview": {
+            "roleName": "MyWebApplicaiton with Java Agent 3-preview",
+            "instrumentation": {
+                "logging": {
+                    "threshold": "INFO"
+                }
+            }
+        }
+    }
+}

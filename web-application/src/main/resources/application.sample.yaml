@@ -1,0 +1,3 @@
+azure:
+    application-insights:
+        instrumentation-key: <<set-your-instrumentation-key>>
