@@ -1,0 +1,23 @@
+{
+    "connectionString": "InstrumentationKey=<<set your instrumentation key>>",
+    "role": {
+        "name": "MyWebApplicaiton with Java Agent 3"
+    },
+    "instrumentation": {
+        "logging": {
+            "level": "INFO"
+        },
+        "micrometer": {
+            "enabled": true
+        }
+    },
+    "selfDiagnostics": {
+        "destination": "file+console",
+        "level": "INFO",
+        "file": {
+            "path": "applicationinsights.log",
+            "maxSizeMb": 5,
+            "maxHistory": 1
+        }
+    }
+}
