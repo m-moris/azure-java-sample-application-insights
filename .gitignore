@@ -1,3 +1,4 @@
+.vscode/
 #
 HELP.md
 target/
@@ -76,4 +77,5 @@ web-application/src/main/resources/application.yaml
 web-application-with-agent3/ApplicationInsights.json
 web-application-with-agent3/h2db
 !web-application-with-agent3/applicationinsights-agent-3.0.0-PREVIEW.5.jar
+!web-application-with-agent3/applicationinsights-agent-3.2.7.jar
 
