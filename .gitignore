@@ -79,4 +79,6 @@ web-application-with-agent3/applicationinsights.json
 web-application-with-agent3/h2db
 !web-application-with-agent3/applicationinsights-agent-3.0.0-PREVIEW.5.jar
 !web-application-with-agent3/applicationinsights-agent-3.2.7.jar
+!web-application-with-agent3/applicationinsights-agent-3.7.0.jar
 
+simple-logging/applicationinsights.json

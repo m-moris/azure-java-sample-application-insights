@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.6.4</version>
+        <version>3.4.2</version>
         <relativePath/>
         <!-- lookup parent from repository -->
     </parent>
@@ -16,7 +16,7 @@
     <description>Demo project for Spring Boot</description>
 
     <properties>
-        <java.version>11</java.version>
+        <java.version>21</java.version>
     </properties>
 
     <dependencies>
@@ -55,7 +55,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <jvmArguments>
-                    -javaagent:/work/azure-java-sample-application-insights/web-application-with-agent3/applicationinsights-agent-3.2.7.jar
+                    -javaagent:${project.basedir}/applicationinsights-agent-3.7.0.jar
                     </jvmArguments>
                 </configuration>
             </plugin>
